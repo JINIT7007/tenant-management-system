@@ -1,0 +1,89 @@
+/* Responsive Design - Mobile Optimization */
+
+/* Mobile: 0-768px */
+@media screen and (max-width: 768px) {
+    /* Header adjustments */
+    .header-container {
+        padding: 15px 20px !important;
+    }
+
+    .desktop-nav {
+        display: none !important;
+    }
+
+    .mobile-menu-button {
+        display: block !important;
+    }
+
+    /* Content Padding */
+    body > div > div > div {
+        padding: 20px 15px !important;
+    }
+
+    /* Font sizes */
+    h1 {
+        font-size: 24px !important;
+    }
+
+    h2 {
+        font-size: 20px !important;
+    }
+
+    h3 {
+        font-size: 18px !important;
+    }
+
+    /* Tables - Horizontal Scroll */
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Form inputs - prevent iOS zoom */
+    input,
+    select,
+    textarea,
+    button {
+        font-size: 16px !important;
+    }
+}
+
+/* Tablet: 769px - 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body > div > div > div {
+        padding: 30px !important;
+    }
+}
+
+/* Small Mobile: 0-480px */
+@media screen and (max-width: 480px) {
+    table th,
+    table td {
+        padding: 8px !important;
+        font-size: 12px !important;
+    }
+
+    button {
+        padding: 10px 16px !important;
+        font-size: 13px !important;
+    }
+}
+
+/* General responsive utilities */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.mobile-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.full-width-mobile {
+    width: 100%;
+}
+     
