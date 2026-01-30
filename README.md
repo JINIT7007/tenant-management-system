@@ -1,16 +1,54 @@
-# React + Vite
+# 🏢 Tenant Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application for managing tenants, apartments, and occupants in residential properties.
 
-Currently, two official plugins are available:
+## 📋 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Admin Features
+- 📊 Dashboard with statistics and analytics
+- 👥 Tenant management (Add, Edit, Delete, View)
+- 🏠 Apartment management
+- 👨‍👩‍👧‍👦 Occupant tracking
+- 📈 Occupancy rate monitoring
 
-## React Compiler
+### Tenant Features
+- 👤 Personal profile management
+- 👨‍👩‍👧‍👦 Household member management
+- 📄 View apartment details
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend:**
+- React.js
+- React Router
+- Axios
+- CSS3
+
+**Backend:**
+- Node.js
+- Express.js
+- MySQL
+- JWT Authentication
+- bcrypt
+
+---
+
+## 📦 Prerequisites
+
+Before running this project, make sure you have:
+
+- **Node.js** (v16 or higher) - [Download](https://nodejs.org/)
+- **MySQL** (v8.0 or higher) - [Download](https://www.mysql.com/)
+- **Git** - [Download](https://git-scm.com/)
+
+---
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/JINIT7007/tenant-management-system.git
+cd tenant-management-system
